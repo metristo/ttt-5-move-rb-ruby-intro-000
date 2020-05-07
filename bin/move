@@ -10,9 +10,9 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Where would you like to go?"
 
-gets.strip
+string = gets.strip
 
-input_to_index(gets.strip)
+input_to_index(string)
 
 move(board, index, user_marker = "X")
 
