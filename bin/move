@@ -14,6 +14,6 @@ string = gets.strip
 
 input_to_index(string)
 
-move(board, index, user_marker = "X")
+move(board, index, marker = "X")
 
 display_board(board)
